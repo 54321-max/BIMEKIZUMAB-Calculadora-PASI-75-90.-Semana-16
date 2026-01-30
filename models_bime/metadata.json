@@ -1,0 +1,28 @@
+{
+  "features": [
+    "Sexo",
+    "Edad (autocálculo)",
+    "IMC (autocálculo)",
+    "Artritis",
+    "N biológicos previos",
+    "PASI INICIO TTO"
+  ],
+  "models": {
+    "PASI75_w16": {
+      "path": "models_bime\\bime_PASI75_w16.joblib",
+      "n": 119,
+      "pos": 105,
+      "auc": 0.5108843537414967,
+      "prauc": 0.8904246673566025,
+      "brier": 0.1116865744705195
+    },
+    "PASI90_w16": {
+      "path": "models_bime\\bime_PASI90_w16.joblib",
+      "n": 119,
+      "pos": 98,
+      "auc": 0.5238095238095238,
+      "prauc": 0.848491702082992,
+      "brier": 0.14940905223377973
+    }
+  }
+}
